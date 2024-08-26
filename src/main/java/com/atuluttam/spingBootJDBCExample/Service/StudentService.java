@@ -22,5 +22,15 @@ public class StudentService {
        return SR.findAll();
     }
 
-    
+    public void removeStudent(int r)
+    {
+       SR.deleteStudent(r);
+    }
+
+    public void updateinfo(Student s)
+    {
+        SR.updateStudent(s);
+    }
+
+
 }
